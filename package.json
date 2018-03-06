@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/txn513/picture-crawler/issues"
   },
-  "homepage": "https://github.com/txn513/picture-crawler#readme"
+  "homepage": "https://github.com/txn513/picture-crawler#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.83.0"
+  }
 }
