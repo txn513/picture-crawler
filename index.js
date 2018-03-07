@@ -21,3 +21,5 @@ function download(imgUrl, i){
 	let ext = imgUrl.split('.').pop();
 	request(imgUrl).pipe(fs.createWriteStream(path.join(config.imgDir, i+'.'+ext)));
 }
+
+start();
