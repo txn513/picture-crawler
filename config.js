@@ -1,4 +1,4 @@
-const url = 'https://www.douyu.com/262877';
+const url = '';
 const path = require('path');
 const imgDir = path.join(__dirname,'img');
 
